@@ -1,5 +1,5 @@
 Rails.application.configure do
-  config.action_mailer.default_url_options = { 'nomster-amanda-pippins.herokuapp.com/' }
+  config.action_mailer.default_url_options = { host: 'nomster-amanda-pippins.herokuapp.com' }
   
   # Settings specified here will take precedence over those in config/application.rb.
 
