@@ -14,6 +14,7 @@ def index
   end
 
   def end
+  	@place = Place.find(params[:id])
   end
 
   private
