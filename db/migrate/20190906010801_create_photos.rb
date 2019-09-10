@@ -2,8 +2,9 @@ class CreatePhotos < ActiveRecord::Migration[5.2]
   def up
   	#drop_table :photos
     create_table :photos do |t|
-    t.integer :place_id
-    t.text :caption	
+    	t.text :caption
+    	t.integer :place_id
+    	t.integer :user_id
       t.timestamps
     end
   end
