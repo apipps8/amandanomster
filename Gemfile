@@ -7,6 +7,7 @@ ruby '2.5.3'
 #gem 'bootstrap', '~> 4.3.1'
 
 gem 'jquery-rails'
+gem 'carrierwave', '~> 1.0'
 
 gem "font-awesome-rails"
 
@@ -59,6 +60,7 @@ group :development do
   gem 'pry-rails', '~> 0.3.9'
   gem 'pry-stack_explorer', '~> 0.4.9.3'
   gem 'awesome_print', '~> 1.8'
+
 
 end
 
