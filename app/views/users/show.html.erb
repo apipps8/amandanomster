@@ -1,7 +1,5 @@
 <h1><%= @user.email %></h1>
-<<<<<<< HEAD
-
+<h3>Member Since: <%= @user.created_at.strftime("%B %d, %Y") %></h3>
 <h4><%= @user.comments.count %> total comments</h4>
 <h4><%= @user.comments.where(rating: '5_stars').count %> total 5 star reviews</h4>
-=======
->>>>>>> 294d4d3356c5ff02a81d4d9b89570b9e9fc05e9c
+
